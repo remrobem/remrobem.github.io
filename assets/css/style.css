@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 960px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 175%;
+  color: #000000;
+  background-image: url("../images/handmadepaper.png");
+  /* background-color: #a31515; */
+}
+
+header {
+  border-bottom-color: slategray;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+#name {
+  float: left;
+  width: 25%;
+  margin: 0 0 0 75px;
+  height: 60px;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+#nav {
+  background-color: white;
+}
+
+#nav_bar {
+  height: 60px;
+}
+
+#nav_bar ul {
+  list-style: none;
+  margin: 0 0;
+  padding: 10px 0;
+}
+
+#nav_bar li {
+  display: inline;
+  float: right;
+  border-right: 1px solid lightgray;
+}
+
+#nav_bar a {
+  color: black;
+  padding: 8px 16px;
+}
+
+#nav_bar a:link {
+  text-decoration: none;
+}
+
+#nav_bar a:visited {
+  text-decoration: none;
+}
+
+
+.infobox {
+  background-color: white;
+  color: #4aaaa5;
+  width: 650px;
+  height: 850px;
+  margin: 30px 40px 0px 75px;  
+  display: block;
+}
+.infobox {
+padding: 10px;
+}
+
+.infobox h1 {
+  padding: 10px 10px 30px 20px;
+  margin-bottom: 0px;
+   border-bottom-style: solid;
+   border-bottom-width: 2px;
+   border-image: url("../images/handmadepaper.png") 30% round;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  background-color: #666666;
+  margin-left: 75px;
+}
+
+img {
+  width: 200px;
+  height: 175 px;
+}
+
+#about_img {
+  float: left;
+  padding: 0 20px 20px 0;
+  margin: 20px 0 20px 20px;
+}
